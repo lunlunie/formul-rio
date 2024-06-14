@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastro de Cliente </title>
+</head>
+<body>
+    
+    <h1> Cadrasto de cliente </h1>
+
+    <!-- formulário de cadastro -->
+    <form action="#" method="post">
+
+    <!-- campo de nome -->
+    <label for="nome"> nome:</label><br>
+    <input type="text" id="nome" name="nome" size="45" required><br><br>  
+
+    <!-- campo de endereço -->
+    <label for="enderoço"> endereço:</label><br>
+    <input type="text" id="endereço" name="endereço" size="45" required><br><br>  
+
+    <!-- campo de email-->
+    <label for="email"> email:</label><br>
+    <input type="email" id="email" name="email" size="45" required><br><br>  
+
+    <!-- campo de contato -->
+    <label for="contato"> contato: </label><br>
+    <input type="text" id="contato" name="contato" size="45" required><br><br>  
+
+     <!-- campo de data de nascimento -->
+     <label for="data_nascimento"> data de nascimento: </label><br>
+     <input type="text" id="data_nascimento" name="data_nascimento" required><br><br>  
+
+     <!-- campo de curso -->
+     <label for="curso">curso:</label><br>
+     <select id="curso" name="curso" required>
+        <option value="selecione">selecione</option>
+        <option value="html">html</option>
+        <option value="CSS">css</option>
+        <option value="javascript">javascript</option>
+        <!-- adicione mas opções conforme necessário -->
+    </select><br><br>
+
+    <!-- campo de turno -->
+     <label>turno</label><br>
+     <input type="checkbox" id="manha" name="turno" value="manhã">
+     <label for="manhã"> manhã </label><br>
+     <input type="checkbox" id="tarde" name="turno" value="tarde">
+     <label for="tarde"> tarde </label><br>
+     <input type="checkbox" id="noite" name="turno" value="noite">
+     <label for="noite"> noite </label><br><br>
+
+    <!-- campo de observação -->
+     <label for="observações">observações</label><br>
+     <textarea id="observações" name="observações" rows="4" cols="50"></textarea><br><br>
+
+     <!-- botões de envio e limpeza -->
+    <input type="submit" value="enviar">
+    <input type="reset" value="escreva-se">
+
+    </form>
+
+</body>
+</html>
